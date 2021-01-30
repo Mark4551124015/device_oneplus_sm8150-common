@@ -120,16 +120,6 @@
         <fqname>@2.0::IAllocator/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.graphics.composer</name>
-        <transport>hwbinder</transport>
-        <version>2.2</version>
-        <interface>
-            <name>IComposer</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@2.2::IComposer/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.graphics.mapper</name>
         <transport arch="32+64">passthrough</transport>
         <version>2.1</version>
@@ -976,6 +966,19 @@
         <interface>
             <name>IQtiExtendedFingerprint</name>
             <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.lineage.touch</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ITouchscreenGesture</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>
+ance>
         </interface>
     </hal>
     <hal format="hidl">
